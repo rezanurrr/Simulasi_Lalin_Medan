@@ -250,7 +250,7 @@ def run_simulation():
     # Setup plot
     fig, ax = plt.subplots(figsize=(12, 6))
     plt.axis('off')
-    plt.title(f"Simulasi Lalu Lintas Jalan Tuasan Medan\n{Jumlah Kendaraan: {num_agents}, Kecepatan Maks: {max_speed} km/jam")
+    plt.title(f"Simulasi Lalu Lintas Jalan Tuasan Medan\nJumlah Kendaraan: {num_agents}, Kecepatan Maks: {max_speed} km/jam")
     
     # Warna untuk visualisasi
     cmap = ListedColormap(['white', 'gray', 'red', 'yellow', 'green'])
